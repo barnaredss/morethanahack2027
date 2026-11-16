@@ -1,4 +1,4 @@
-# Team sport-motion: who has the ball, frame by frame
+# Team motion: who has the ball, frame by frame
 
 This is our entry for More than a Hack 2027, Phase 1. The organisers' original README follows below
 the line.
@@ -6,7 +6,7 @@ the line.
 **To regenerate our submission file:**
 
 ```bash
-python -m possession.run --out submissions/sport-motion.csv
+python -m possession.run --out submissions/motion.csv
 ```
 
 The command always produces the same file and prints its SHA-256.
@@ -30,7 +30,7 @@ run stores a parsed copy in `./cache`, which is safe to delete.
 **Check the file** before sending it:
 
 ```bash
-python evaluation/validate_submission.py submissions/sport-motion.csv
+python evaluation/validate_submission.py submissions/motion.csv
 ```
 
 **Data from other matches** (Metrica, SkillCorner and Sportec / DFL, credited in the technical

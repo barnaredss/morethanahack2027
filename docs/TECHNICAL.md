@@ -1,6 +1,6 @@
 # Technical document: who has the ball, frame by frame
 
-Team: sport-motion
+Team: motion
 
 This document explains what we built, what data it uses, the possession rules it follows, how well
 it did in our own tests and where it can fail. Two companion files go deeper:
@@ -268,8 +268,8 @@ Python 3.12. From a fresh copy of the repository:
 python -m venv .venv
 .venv/Scripts/pip install -r requirements.txt     # Linux/macOS: .venv/bin/pip
 export MTAH_DATA_DIR=/path/to/data                # the organisers' data; default is ./data
-.venv/Scripts/python -m possession.run --out submissions/sport-motion.csv
-.venv/Scripts/python evaluation/validate_submission.py submissions/sport-motion.csv
+.venv/Scripts/python -m possession.run --out submissions/motion.csv
+.venv/Scripts/python evaluation/validate_submission.py submissions/motion.csv
 ```
 
 - The run takes under a minute on a laptop.

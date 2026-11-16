@@ -5,7 +5,7 @@ files to the CSV. Why each piece exists and how it was validated is in [TECHNICA
 every parameter value and its origin is in [NOTES.md](NOTES.md).
 
 ```bash
-python -m possession.run --out submissions/sport-motion.csv
+python -m possession.run --out submissions/motion.csv
 ```
 
 ## Overview
