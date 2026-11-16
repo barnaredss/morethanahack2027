@@ -1,0 +1,10 @@
+# Pinned runtime for the pipeline AND the official scorer (which needs only numpy + pandas).
+# Python 3.12. Reproduce with:  py -3.12 -m venv .venv && .venv/Scripts/pip install -r requirements.txt
+numpy==2.5.4
+pandas==3.1.1
+scipy==1.18.1
+numba==0.68.1
+llvmlite==0.50.0
+python-dateutil==4.0.0
+tzdata==2026.6
+pytest==9.2.0
